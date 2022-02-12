@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Progressbar Styles -->
+    <style name="cl_progress_bar" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/cl_custom_alert_dialog_style</item>
+        <item name="android:windowBackground">@color/cl_transparent</item>
+        <item name="android:textColorPrimary">@color/cl_white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:textColor">@color/cl_white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="cl_custom_alert_dialog_style">
+        <item name="android:bottomBright">@color/cl_transparent</item>
+        <item name="android:bottomDark">@color/cl_transparent</item>
+        <item name="android:bottomMedium">@color/cl_transparent</item>
+        <item name="android:centerBright">@color/cl_transparent</item>
+        <item name="android:centerDark">@color/cl_transparent</item>
+        <item name="android:centerMedium">@color/cl_transparent</item>
+        <item name="android:fullBright">@color/cl_transparent</item>
+        <item name="android:fullDark">@color/cl_transparent</item>
+        <item name="android:topBright">@color/cl_transparent</item>
+        <item name="android:topDark">@color/cl_transparent</item>
+    </style>
+
+    <style name="AppImageView">
+        <item name="android:layout_width">@dimen/profile_size</item>
+        <item name="android:layout_height">@dimen/profile_size</item>
+    </style>
+
+    <style name="ItemTitleTextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/small</item>
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AddressTextView" parent="ItemTitleTextView">
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:layout_marginStart">@dimen/small</item>
+        <item name="android:layout_marginTop">@dimen/small</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+</resources>

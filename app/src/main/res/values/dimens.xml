@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="profile_size">80dp</dimen>
+    <dimen name="small">4dp</dimen>
+
+    <!--Text-->
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="medium">16dp</dimen>
+    <dimen name="max">64dp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="datum_image_height">250dp</dimen>
+</resources>
